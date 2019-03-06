@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #c6ad8f;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+img {
+  border-radius: 2em;
+  border: 1em black solid;
+}
+
