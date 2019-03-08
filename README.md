@@ -1,4 +1,10 @@
-# Cat Clicker App
+# Pet Clicker App
 
-## Click on the cat and gain counts to the click counter.
+## Choose an unlimited amount of pets to display from the sidebar.
+
+## Vote for each pet by clicking on the image.
+
+### Each pet records its clicks
 ### Yay! You always win!
+
+#### Refresh the screen to start over.
