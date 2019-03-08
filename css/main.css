@@ -3,31 +3,60 @@ html {
 }
 
 body {
+  display: flex;
   text-align: center;
   background-color: #c6ad8f;
-  font-family: 'Amatic SC', cursive;
-
+  font-family: 'Shadows Into Light', cursive;
+  /* font-family: 'Amatic SC', cursive; */
 }
 
 h1 {
   font-size: 3em;
 }
 
+h2 {
+  font-size: 1.5em;
+  padding: 0 0.25em;
+}
+
 .title {
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-evenly;
+}
+
+
+
+.clickBox {
+  border-radius: 2em;
+  border: 0.5em black solid;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0.25em;
+  width: 40%;
 }
 
 img {
   border-radius: 2em;
-  border: 1em black solid;
+  border: 0.5em black solid;
   margin: 1em;
+  width: 80%;
 }
 
-figure {
+#sidebar {
+  display: flex;
+  flex-direction: column;
   border-radius: 2em;
-  border: 1em black solid;
-  display: inline-block;
-  background-color: #fff;
+  border: 0.5em black solid;
+  /* justify-content: space-around; */
 }
 
+.pet {
+  /* margin: 1em 0; */
+  /* padding: 0 1em; */
+  font-size: 1.5em;
+}
+
+.pet:hover {
+  background-color: white;
+}

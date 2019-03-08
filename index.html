@@ -5,25 +5,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cat Clicker</title>
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <h1>Cat Clicker</h1>
+  
+  <section id="sidebar">
+    <h2>Choose your pet: </h2>
+    <article id="petList"></article>
+  </section>
   <main>
-    <figure>
+    <h1>Pet Clicker</h1>
+    <article id="display"></article>
+    <article class="clickBox">
       <div class="title">
         <h2 id="name1">cat name</h2>
         <h2>Clicks: <span id="clickCount1">0</span></h2>
       </div>
-      <img  id="catSpace" src="images/ollieCat.jpg" alt="ollie the cat sleeping as always">
-    </figure>
-    <figure>
+      <img  id="catSpace" src="images/ollie.jpg" alt="ollie the cat sleeping as always">
+    </article>
+    <article class="clickBox">
       <div class="title">
         <h2 id="name2">dog name</h2>
         <h2>Clicks: <span id="clickCount2">0</span></h2>
       </div>
-      <img id="dogSpace" src="images/amigoDog.jpg" alt="amigo the dog asking for a treat">
-    </figure>
+      <img id="dogSpace" src="images/amigo.jpg" alt="amigo the dog asking for a treat">
+    </article>
   </main>
   <script src="js/app.js"></script>
 </body>
